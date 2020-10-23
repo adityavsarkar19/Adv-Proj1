@@ -1,15 +1,14 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const data = require('./data');
 import config from './config';
-import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import userRoute from './routes/userRoute';
 import bodyParser from 'body-parser';
 
 
 
-dotenv.config();
 
 const mongodbUrl = config.MONGODB_URL;
 mongoose.connect(mongodbUrl, {

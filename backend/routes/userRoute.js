@@ -43,7 +43,7 @@ router.post('/register', async (req, res) => {
         res.status(401).send({msg: 'Invalid User Data'});
 
     }
-    const signinUser = await User.findOne(){
+    const signinUser = await User.findOne({
         email: req.body.email,
         password: req.body.password
     });

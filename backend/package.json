@@ -5,7 +5,8 @@
   "main": "data.js",
   "type":"module",
   "scripts": {
-    "start": "nodemon server.js"
+    "abcd": "nodemon server.js"
+
   },
   "author": "",
   "license": "ISC",
