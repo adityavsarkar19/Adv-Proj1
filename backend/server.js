@@ -5,6 +5,7 @@ import config from './config';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import userRoute from './routes/userRoute';
+import bodyParser from 'body-parser';
 
 
 
@@ -19,6 +20,7 @@ mongoose.connect(mongodbUrl, {
 } ).catch(error => console.log(error.reason));
 
 const app = express();
+app.use(bodyParser.json());
 app.use(express.json());
 app.use(cors());
 
