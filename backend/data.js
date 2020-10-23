@@ -8,6 +8,7 @@ const data =  {
         price: 2000,
         brand: 'Givson',
         rating: "5",
+        countInstock : 0, 
     }, 
     {
         _id: '2',
@@ -17,6 +18,7 @@ const data =  {
         price: 2000,
         brand: 'Givson',
         rating: "5",
+        countInstock : 6, 
     }, 
     {
         _id: '3',
@@ -26,6 +28,7 @@ const data =  {
         price: 2000,
         brand: 'Givson',
         rating: "5",
+        countInstock : 6, 
     }, 
     {
         _id: '4',
@@ -35,6 +38,7 @@ const data =  {
         price: 2000,
         brand: 'Givson',
         rating: "5",
+        countInstock : 6, 
     }, 
     {
         _id: '5',
@@ -44,6 +48,7 @@ const data =  {
         price: 2000,
         brand: 'Givson',
         rating: "5",
+        countInstock : 6, 
     }, 
     {
         _id: '6',
@@ -53,6 +58,7 @@ const data =  {
         price: 2000,
         brand: 'Givson',
         rating: "5",
+        countInstock : 6, 
     }, 
 ]
 }
