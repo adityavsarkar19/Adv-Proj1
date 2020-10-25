@@ -21,7 +21,7 @@ function App() {
   return (
 <BrowserRouter>
     <div className ="grid-container">
-    <header className = "header"> //creating nav bar for the home page
+    <header className = "header">
         <div className = "brand">
             <button onClick={openMenu}>
                 &#9776;
@@ -62,7 +62,7 @@ function App() {
 
     </aside>
     
-    <main className = "main"> //
+    <main className = "main">
          <div className ="content">
              <Route path = "/signin" component = {SigninScreen} />
              <Route path = "/register" component = {RegisterScreen} />
