@@ -1,4 +1,9 @@
-import { CART_ADD_ITEM, CART_REMOVE_ITEM } from "../constants/cartConstant";
+import { CART_ADD_ITEM, CART_REMOVE_ITEM } from "../constants/cartConstants";
+
+
+
+ /* reducer function determines changes to the application’s state. 
+    It uses the action it receives to determine this change. */
 
 function cartReducer(state={ cartItems: []}, action){
     switch (action.type){ 

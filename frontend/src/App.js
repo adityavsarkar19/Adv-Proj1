@@ -1,12 +1,12 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import {BrowserRouter, Link, Route} from 'react-router-dom';
+import {BrowserRouter, Link, Route} from 'react-router-dom'; 
 import './App.css';
-import CartScreen from './screens/CartScreen';
-import HomeScreen from './screens/HomeScreen';
-import ProductScreen from './screens/ProductScreen';
-import RegisterScreen from './screens/RegisterScreen';
-import SigninScreen from './screens/SigninScreen';
+import CartScreen from './Screens/CartScreen'; 
+import HomeScreen from './Screens/HomeScreen';
+import ProductScreen from './Screens/ProductScreen';
+import RegisterScreen from './Screens/RegisterScreen';
+import SigninScreen from './Screens/SigninScreen';
 
 function App() {
 
@@ -21,7 +21,7 @@ function App() {
   return (
 <BrowserRouter>
     <div className ="grid-container">
-    <header className = "header">
+    <header className = "header"> //creating nav bar for the home page
         <div className = "brand">
             <button onClick={openMenu}>
                 &#9776;
@@ -40,7 +40,7 @@ function App() {
 
         </div>
     </header>
-    <aside className= "sidebar">
+    <aside className= "sidebar"> 
         <h3>Categories</h3>
         <button className = "sidebar-close-button" onClick={closeMenu} >
          &#8594;
@@ -62,7 +62,7 @@ function App() {
 
     </aside>
     
-    <main className = "main">
+    <main className = "main"> //
          <div className ="content">
              <Route path = "/signin" component = {SigninScreen} />
              <Route path = "/register" component = {RegisterScreen} />

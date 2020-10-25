@@ -2,9 +2,14 @@ import { PRODUCT_DETAILS_FAIL, PRODUCT_DETAILS_REQUEST, PRODUCT_DETAILS_SUCCESS,
 
 function productListReducer(state= {products: []}, action){
 
+
+    /* reducer function determines changes to the application’s state. 
+    It uses the action it receives to determine this change. */
+
     switch(action.type){
-        case PRODUCT_LIST_REQUEST:
-            return {loading: true};
+        case PRODUCT_LIST_REQUEST:   
+            return {loading: true};                /* reducer function using product actions to determine changes for Product Lists*/
+        
         case PRODUCT_LIST_SUCCESS:
             return {loading: false, products: action.payload };  
         case PRODUCT_LIST_FAIL:
@@ -17,7 +22,7 @@ function productListReducer(state= {products: []}, action){
 
 function productDetailsReducer(state= {product: {}}, action){
 
-    switch(action.type){
+    switch(action.type){                           /* reducer function using product actions to determine changes for Product Details*/
         case PRODUCT_DETAILS_REQUEST:
             return {loading: true};
         case PRODUCT_DETAILS_SUCCESS:
