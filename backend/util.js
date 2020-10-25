@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken')
 const config = require('./config')
 
-/* Backend for 
+/* Backend for Sign-in and Register Pages*/
 const getToken = (user) => {
     return jwt.sign({
         _id: user._id,
