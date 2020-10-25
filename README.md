@@ -8,7 +8,7 @@ Currently, we have
 4. Add to cart screen and product screen.   
 
 A lot of the sense of direction that we were able to gain for the project was due to the first video tutorial provided in the bibliography that goes through the steps needed to create a full E-commerce website.   
-We attempted to implement this code by deploying it to an online DB but were not able to.  
+We attempted to implement this code by deploying it to an online DB but were not able to. This also led to the inability to present the website online.    
 We apologize for the underperformance.  
 We shall take this in our stride and try our best in the next project.  
 # Bibliography:  
