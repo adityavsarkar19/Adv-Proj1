@@ -1,6 +1,14 @@
 # Project1-Advanced-Programming
 Creating an E-Commerce Website using MERN stack.  
 The website is called MusikMart (shopping site for instruments) and we have used Node.js, React and Express to create it.  
+Currently, we have  
+1. A sign in page.  
+2. Register page.  
+3. Products page with sidebar.  
+4. Add to cart screen and product screen.  
+We attempted to implement this code by deploying it to an online DB but were not able to.  
+We apologize for the underperformance.  
+We shall take this in our stride and try our best inn the next project.  
 Bibliography:  
 1. ‘React & Node Tutorial- Full E-Commerce In 5 Hours’ Youtube, uploaded by Coding with Basir, 6 May 2020, https://youtu.be/Fy9SdZLBTOo  
 
