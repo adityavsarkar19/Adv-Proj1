@@ -10,7 +10,7 @@ Currently, we have
 
 We attempted to implement this code by deploying it to an online DB but were not able to.  
 We apologize for the underperformance.  
-We shall take this in our stride and try our best inn the next project.  
+We shall take this in our stride and try our best in the next project.  
 # Bibliography:  
 1. ‘React & Node Tutorial- Full E-Commerce In 5 Hours’ Youtube, uploaded by Coding with Basir, 6 May 2020, https://youtu.be/Fy9SdZLBTOo  
 
